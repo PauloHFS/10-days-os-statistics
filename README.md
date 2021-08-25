@@ -1,2 +1,3 @@
 # 10-days-os-statistics
-Solution of Statistics Tutorial on HackerRank
+Solutions of Statistics Tutorial on HackerRank
+
