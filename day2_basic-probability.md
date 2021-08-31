@@ -2,6 +2,8 @@
 
 In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that their sum will be *at most* **9**.
 
+------
+
 ### Solution
 
 **Experiment**: toss 2 six-sided dice
@@ -30,4 +32,10 @@ $$
 ​	The sum of two dices are at most **9**.
 $$
 E=\{(x,y)|x+y\leq9\text{ and }(x,y)\subset S\}
+$$
+**Solution**:
+$$
+\text{as } P(E) = 1-P(E') \text{ and }\newline
+E'=\{(x,y)|x+y>9\text{ and }(x,y)\subset S\}=\{(4,6),(5,5),(5,6),(6,4),(6,5),(6,6)\}\newline
+P(E)=1-P(E')=1-\frac{n(E')}{n(S)}=1-\frac{6}{36}=1-\frac{1}{6}=\frac{5}{6}
 $$
